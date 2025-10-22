@@ -52,4 +52,11 @@ header nav a {
 header nav a:hover {
   background: #005a99;
   color: #fff;
+
+}
+
+@media (max-width: 600px){
+  .evento-container{
+    flex-direction: column; 
+  }
 }
